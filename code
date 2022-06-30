@@ -8,7 +8,7 @@ public class ReproductorMusica {
     
     //MÉTODOS
     
-    public ReproductorMusica(String[] song) {
+    public ReproductorMusica(String[] canciones) {
         //COMPLETE AQUÍ LA LÓGICA DEL CONSTRUCTOR SEGÚN EL ENUNCIADO
         this.song = song;
         this.cancionesFavoritas = new int[song.length];
